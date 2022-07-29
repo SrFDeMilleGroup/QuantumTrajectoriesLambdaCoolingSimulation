@@ -23,3 +23,5 @@ This runs the executable file created by the compiler (here, testVaryCaFSrFNoPat
 1) Detuning (here, 2.9).  This is the overall laser detuning (\Delta in figure 1 of **QTSimulationQuickWriteup**)
 
 2) deltaRaman (here $dRaman, which is iterated over in the batch script).  This is the `raman' detuning
+
+(work in progress, finish later)
