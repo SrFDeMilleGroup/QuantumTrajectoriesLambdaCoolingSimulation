@@ -8,6 +8,10 @@ Even briefer: This code uses a quantum trajectories approach (see Chapter 6 of h
 
 Wavefunctions, velocities, and positions of molecules interacting with the polarization-interference-pattern created by 3 counter-propagating pairs of \sig+/sig- lasers (Here I assume a MOT-like configuration, where, along +x and +y, light is \sigma^{+} and along +z it is \sigma^{-}.  Vice versa for -x,-y, and-z).  The intensity of the lasers (both overall intensity and the ratio between the two coupled states), what pair of states are being "\Lambda" coupled, the detuning (both overall detuning and raman detuning), are all user inputs.
 
+# QTSimulationQuickWriteup
+
+I strongly recommend any user to read this pdf before running simulations.  It explains what the code does (in light detail) and shows some results.
+
 # lambdaCoolingFinalAddCaOH.cpp
 
 The simulation is all contained in this c++ code.  It uses the Armadillo (http://arma.sourceforge.net/download.html) library, which you will need to download if you are planning on running this on your home computer (alternately, most `super-computing' clusters already have this installed, and then you can just load it as a module).  More details are in the **QTSimulationQuickWriteup**.
