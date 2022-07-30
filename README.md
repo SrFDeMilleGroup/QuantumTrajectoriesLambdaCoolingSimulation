@@ -28,6 +28,14 @@ This runs the executable file created by the compiler (here, testVaryCaFSrFNoPat
 
 2) deltaRaman (here $dRaman, which is iterated over in the batch script).  This is the `raman' detuning ($\delta_{R}$ in figure 1 of **QTSimulationQuickWriteup**)
 
-3) saturation parameter.  This is the total saturation parameter ($I/I_{Sat}$ where $I_{sat}= \frac{\hbarc\Gamma\omega^{3}}{4\omega\times 3c^{3}}$) of **one** pass of the laser (includes both frequency components of the beam)
+3) saturation parameter.  This is the total saturation parameter ($I/I_{Sat}$ where $I_{sat}= \frac{\hbar c\Gamma\omega^{3}}{4\omega\times 3c^{3}}$) of **one** pass of the laser (includes both frequency components of the beam)
+
+4) $R_{21}$ (here 0.9).  This is the power ratio between the two frequency components $I_{2}/I_{1}$.
+
+5) First state (here 0, which is defined to be $|F=1,J=1/2\rangle$ state, almost always the case for $\Lambda$ cooling).  State 1 is $|F=0,J=1/2\rangle$, state 2 is $|F=1,J=3/2\rangle$ and state 4 is $|F=2,J=3/2\rangle$ (this is in increasing energy order for all $^{2}\Sigma, N=1$ groundstate molecules that I am aware of).
+
+6) Second state (here 2, e.g. $|F=1,J=3/2\rangle$)
+
+7) CaOHOrCaFOrSrF (here 0).  2 = 'use CaOH values' (hyperfine energies in |X,N=1> state, J-Mixing parameter 'a', etc.), 1 = 'use CaF values', 0 = 'use SrF values'.
 
 (work in progress, finish later)
