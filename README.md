@@ -12,6 +12,14 @@ Wavefunctions, velocities, and positions of molecules interacting with the polar
 
 I strongly recommend any user to read this pdf before running simulations.  It explains what the code does (in light detail) and shows some results.
 
+# QTOBESimulationWriteupMoreDetails
+
+Has some more details about the code, along with some more benchmarking, primarily of results from this paper by Mike Tarbutt: https://arxiv.org/abs/1608.04645
+
+# mainOBEWriteup
+
+This is a writeup primarily for another code on this repository (see: OBESimulation), but it's relevant here as the appendix contains the calculation for the `clebsch-gordan' like terms in the coupling matrices ('cs') used in this code.
+
 # lambdaCoolingFinalAddCaOH.cpp
 
 The simulation is all contained in this c++ code.  It uses the Armadillo (http://arma.sourceforge.net/download.html) library, which you will need to download if you are planning on running this on your home computer (alternately, most `super-computing' clusters already have this installed, and then you can just load it as a module).  More details are in the **QTSimulationQuickWriteup**.
@@ -38,4 +46,8 @@ This runs the executable file created by the compiler (here, testVaryCaFSrFNoPat
 
 7) CaOHOrCaFOrSrF (here 0).  2 = 'use CaOH values' (hyperfine energies in |X,N=1> state, J-Mixing parameter 'a', etc.), 1 = 'use CaF values', 0 = 'use SrF values'.
 
-(work in progress, finish later)
+# testBash.sh
+
+Same as above, except without the supercomputing cluster stuff.  Use this to run on your home computer (warning: will take a good bit of time and use all available CPU since I've enabled parallelization).  I'd only use this for very basic testing, and perhaps even go down to like 1 particle
+
+
