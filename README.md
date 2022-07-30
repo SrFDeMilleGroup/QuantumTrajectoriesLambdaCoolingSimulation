@@ -6,7 +6,7 @@ A brief introduction to the code and how to use it can be found in **QTSimulatio
 
 Even briefer: This code uses a quantum trajectories approach (see Chapter 6 of https://lukin.physics.harvard.edu/files/lukin/files/physics_285b_lecture_notes.pdf) to simulate $\Lambda$ cooling of molecules with a 'typical' $^{2}\Sigma$ level structure.  This assumes cooling on the X-->A transition (though I'd like to add X-->B transitions at some point...), and that the A state has no hyperfine structure.   I've preloaded options to apply this to SrF, CaF, and CaOH.  I can add others upon request.  
 
-Wavefunctions, velocities, and positions of molecules interacting with the polarization-interference-pattern created by 3 counter-propagating pairs of $\sigma+-\sigma-$ lasers (Here I assume a MOT-like configuration, where, along +x and +y, light is $\sigma^{+}$ and along +z it is $\sigma^{-}$.  Vice versa for -x,-y, and-z).  The intensity of the lasers (both overall intensity and the ratio between the two coupled states), what pair of states are being "\Lambda" coupled, the detuning (both overall detuning and raman detuning), are all user inputs.
+Wavefunctions, velocities, and positions of molecules interacting with the polarization-interference-pattern created by 3 counter-propagating pairs of $\sigma^{+}-\sigma^{-}$ lasers (Here I assume a MOT-like configuration, where, along +x and +y, light is $\sigma^{+}$ and along +z it is $\sigma^{-}$.  Vice versa for -x,-y, and-z).  The intensity of the lasers (both overall intensity and the ratio between the two coupled states), what pair of states are being "\Lambda" coupled, the detuning (both overall detuning and raman detuning), are all user inputs.
 
 # QTSimulationQuickWriteup
 
