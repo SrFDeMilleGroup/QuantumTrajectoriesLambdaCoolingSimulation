@@ -34,7 +34,7 @@ This runs the executable file created by the compiler (here, testVaryCaFSrFNoPat
 
 1) Detuning (here, 2.9).  This is the overall laser detuning ($\Delta$ in figure 1 of **QTSimulationQuickWriteup**)
 
-2) deltaRaman (here \$dRaman, which is iterated over in the batch script).  This is the `raman' detuning ($\delta_{R}$ in figure 1 of **QTSimulationQuickWriteup**)
+2) deltaRaman (here dRaman, which is iterated over in the batch script).  This is the `raman' detuning ($\delta_{R}$ in figure 1 of **QTSimulationQuickWriteup**)
 
 3) saturation parameter.  This is the total saturation parameter ($I/I_{Sat}$ where $I_{sat}= \frac{\hbar c\Gamma\omega^{3}}{4\omega\times 3c^{3}}$) of **one** pass of the laser (includes both frequency components of the beam)
 
