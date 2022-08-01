@@ -751,16 +751,16 @@ void qstep(int count)
     randomX = 2*drand48()-1;
     randomY = 2*drand48()-1;
     randomZ = 2*drand48()-1;
-    kickX = vKick*randomX/(randomX^2+randomY^2+randomZ^2);
-    kickY = vKick*randomY/(randomY^2+randomY^2+randomZ^2);
-    kickZ = vKick*randomZ/(randomX^2+randomY^2+randomZ^2);  
+    kickX = vKick*randomX/(randomX*randomX+randomY*randomY+randomZ*randomZ);
+    kickY = vKick*randomY/(randomX*randomX+randomY*randomY+randomZ*randomZ);
+    kickZ = vKick*randomZ/(randomX*randomX+randomY*randomY+randomZ*randomZ);  
     
     randomX = 2*drand48()-1;
     randomY = 2*drand48()-1;
     randomZ = 2*drand48()-1;
-    kickX += vKick*randomX/(randomX^2+randomY^2+randomZ^2);
-    kickY += vKick*randomY/(randomX^2+randomY^2+randomZ^2);
-    kickZ += vKick*randomZ/(randomX^2+randomY^2+randomZ^2);//do it twice
+    kickX += vKick*randomX/(randomX*randomX+randomY*randomY+randomZ*randomZ);
+    kickY += vKick*randomY/(randomX*randomX+randomY*randomY+randomZ*randomZ);
+    kickZ += vKick*randomZ/(randomX*randomX+randomY*randomY+randomZ*randomZ);//do it twice
     
     rand2 = drand48();
     randFExcState = drand48();
